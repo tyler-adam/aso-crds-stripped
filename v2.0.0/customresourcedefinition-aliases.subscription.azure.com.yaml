@@ -243,7 +243,7 @@ spec:
             spec:
               description: Storage version of v1api20211001.Alias_Spec
               properties:
-                $propertyBag:
+                propertyBag:
                   additionalProperties:
                     type: string
                   description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -256,7 +256,7 @@ spec:
                 properties:
                   description: Storage version of v1api20211001.PutAliasRequestProperties Put subscription properties.
                   properties:
-                    $propertyBag:
+                    propertyBag:
                       additionalProperties:
                         type: string
                       description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -264,7 +264,7 @@ spec:
                     additionalProperties:
                       description: Storage version of v1api20211001.PutAliasRequestAdditionalProperties Put subscription additional properties.
                       properties:
-                        $propertyBag:
+                        propertyBag:
                           additionalProperties:
                             type: string
                           description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -295,7 +295,7 @@ spec:
             status:
               description: Storage version of v1api20211001.Alias_STATUS
               properties:
-                $propertyBag:
+                propertyBag:
                   additionalProperties:
                     type: string
                   description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -341,7 +341,7 @@ spec:
                 properties:
                   description: Storage version of v1api20211001.SubscriptionAliasResponseProperties_STATUS Put subscription creation result properties.
                   properties:
-                    $propertyBag:
+                    propertyBag:
                       additionalProperties:
                         type: string
                       description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -376,7 +376,7 @@ spec:
                 systemData:
                   description: Storage version of v1api20211001.SystemData_STATUS Metadata pertaining to creation and last modification of the resource.
                   properties:
-                    $propertyBag:
+                    propertyBag:
                       additionalProperties:
                         type: string
                       description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -596,7 +596,7 @@ spec:
             spec:
               description: Storage version of v1beta20211001.Alias_Spec
               properties:
-                $propertyBag:
+                propertyBag:
                   additionalProperties:
                     type: string
                   description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -609,7 +609,7 @@ spec:
                 properties:
                   description: Storage version of v1beta20211001.PutAliasRequestProperties Deprecated version of PutAliasRequestProperties. Use v1api20211001.PutAliasRequestProperties instead
                   properties:
-                    $propertyBag:
+                    propertyBag:
                       additionalProperties:
                         type: string
                       description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -617,7 +617,7 @@ spec:
                     additionalProperties:
                       description: Storage version of v1beta20211001.PutAliasRequestAdditionalProperties Deprecated version of PutAliasRequestAdditionalProperties. Use v1api20211001.PutAliasRequestAdditionalProperties instead
                       properties:
-                        $propertyBag:
+                        propertyBag:
                           additionalProperties:
                             type: string
                           description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -648,7 +648,7 @@ spec:
             status:
               description: Storage version of v1beta20211001.Alias_STATUS Deprecated version of Alias_STATUS. Use v1api20211001.Alias_STATUS instead
               properties:
-                $propertyBag:
+                propertyBag:
                   additionalProperties:
                     type: string
                   description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -694,7 +694,7 @@ spec:
                 properties:
                   description: Storage version of v1beta20211001.SubscriptionAliasResponseProperties_STATUS Deprecated version of SubscriptionAliasResponseProperties_STATUS. Use v1api20211001.SubscriptionAliasResponseProperties_STATUS instead
                   properties:
-                    $propertyBag:
+                    propertyBag:
                       additionalProperties:
                         type: string
                       description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -729,7 +729,7 @@ spec:
                 systemData:
                   description: Storage version of v1beta20211001.SystemData_STATUS Deprecated version of SystemData_STATUS. Use v1api20211001.SystemData_STATUS instead
                   properties:
-                    $propertyBag:
+                    propertyBag:
                       additionalProperties:
                         type: string
                       description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
