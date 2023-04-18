@@ -176,7 +176,7 @@ spec:
             spec:
               description: Storage version of v1api20180601.Servers_Configuration_Spec
               properties:
-                $propertyBag:
+                propertyBag:
                   additionalProperties:
                     type: string
                   description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -205,7 +205,7 @@ spec:
             status:
               description: Storage version of v1api20180601.Servers_Configuration_STATUS
               properties:
-                $propertyBag:
+                propertyBag:
                   additionalProperties:
                     type: string
                   description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -406,7 +406,7 @@ spec:
             spec:
               description: Storage version of v1beta20180601.Servers_Configuration_Spec
               properties:
-                $propertyBag:
+                propertyBag:
                   additionalProperties:
                     type: string
                   description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -435,7 +435,7 @@ spec:
             status:
               description: Storage version of v1beta20180601.Servers_Configuration_STATUS Deprecated version of Servers_Configuration_STATUS. Use v1api20180601.Servers_Configuration_STATUS instead
               properties:
-                $propertyBag:
+                propertyBag:
                   additionalProperties:
                     type: string
                   description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions

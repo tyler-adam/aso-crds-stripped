@@ -341,7 +341,7 @@ spec:
             spec:
               description: Storage version of v1api20200202.Component_Spec
               properties:
-                $propertyBag:
+                propertyBag:
                   additionalProperties:
                     type: string
                   description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -419,7 +419,7 @@ spec:
             status:
               description: Storage version of v1api20200202.Component_STATUS
               properties:
-                $propertyBag:
+                propertyBag:
                   additionalProperties:
                     type: string
                   description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -458,7 +458,7 @@ spec:
                   items:
                     description: Storage version of v1api20200202.PrivateLinkScopedResource_STATUS The private link scope resource reference.
                     properties:
-                      $propertyBag:
+                      propertyBag:
                         additionalProperties:
                           type: string
                         description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -818,7 +818,7 @@ spec:
             spec:
               description: Storage version of v1beta20200202.Component_Spec
               properties:
-                $propertyBag:
+                propertyBag:
                   additionalProperties:
                     type: string
                   description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -896,7 +896,7 @@ spec:
             status:
               description: Storage version of v1beta20200202.Component_STATUS Deprecated version of Component_STATUS. Use v1api20200202.Component_STATUS instead
               properties:
-                $propertyBag:
+                propertyBag:
                   additionalProperties:
                     type: string
                   description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -935,7 +935,7 @@ spec:
                   items:
                     description: Storage version of v1beta20200202.PrivateLinkScopedResource_STATUS Deprecated version of PrivateLinkScopedResource_STATUS. Use v1api20200202.PrivateLinkScopedResource_STATUS instead
                     properties:
-                      $propertyBag:
+                      propertyBag:
                         additionalProperties:
                           type: string
                         description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions

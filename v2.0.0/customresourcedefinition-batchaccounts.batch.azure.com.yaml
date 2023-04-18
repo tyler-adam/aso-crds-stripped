@@ -396,7 +396,7 @@ spec:
             spec:
               description: Storage version of v1api20210101.BatchAccount_Spec
               properties:
-                $propertyBag:
+                propertyBag:
                   additionalProperties:
                     type: string
                   description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -404,7 +404,7 @@ spec:
                 autoStorage:
                   description: Storage version of v1api20210101.AutoStorageBaseProperties The properties related to the auto-storage account.
                   properties:
-                    $propertyBag:
+                    propertyBag:
                       additionalProperties:
                         type: string
                       description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -438,7 +438,7 @@ spec:
                 encryption:
                   description: Storage version of v1api20210101.EncryptionProperties Configures how customer data is encrypted inside the Batch account. By default, accounts are encrypted using a Microsoft managed key. For additional control, a customer-managed key can be used instead.
                   properties:
-                    $propertyBag:
+                    propertyBag:
                       additionalProperties:
                         type: string
                       description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -448,7 +448,7 @@ spec:
                     keyVaultProperties:
                       description: Storage version of v1api20210101.KeyVaultProperties KeyVault configuration when using an encryption KeySource of Microsoft.KeyVault.
                       properties:
-                        $propertyBag:
+                        propertyBag:
                           additionalProperties:
                             type: string
                           description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -460,7 +460,7 @@ spec:
                 identity:
                   description: Storage version of v1api20210101.BatchAccountIdentity The identity of the Batch account, if configured. This is only used when the user specifies 'Microsoft.KeyVault' as their Batch account encryption configuration.
                   properties:
-                    $propertyBag:
+                    propertyBag:
                       additionalProperties:
                         type: string
                       description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -471,7 +471,7 @@ spec:
                       items:
                         description: Storage version of v1api20210101.UserAssignedIdentityDetails Information about the user assigned identity for the resource
                         properties:
-                          $propertyBag:
+                          propertyBag:
                             additionalProperties:
                               type: string
                             description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -499,7 +499,7 @@ spec:
                 keyVaultReference:
                   description: Storage version of v1api20210101.KeyVaultReference Identifies the Azure key vault associated with a Batch account.
                   properties:
-                    $propertyBag:
+                    propertyBag:
                       additionalProperties:
                         type: string
                       description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -553,7 +553,7 @@ spec:
             status:
               description: Storage version of v1api20210101.BatchAccount_STATUS Contains information about an Azure Batch account.
               properties:
-                $propertyBag:
+                propertyBag:
                   additionalProperties:
                     type: string
                   description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -565,7 +565,7 @@ spec:
                 autoStorage:
                   description: Storage version of v1api20210101.AutoStorageProperties_STATUS Contains information about the auto-storage account associated with a Batch account.
                   properties:
-                    $propertyBag:
+                    propertyBag:
                       additionalProperties:
                         type: string
                       description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -615,7 +615,7 @@ spec:
                   items:
                     description: Storage version of v1api20210101.VirtualMachineFamilyCoreQuota_STATUS A VM Family and its associated core quota for the Batch account.
                     properties:
-                      $propertyBag:
+                      propertyBag:
                         additionalProperties:
                           type: string
                         description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -631,7 +631,7 @@ spec:
                 encryption:
                   description: Storage version of v1api20210101.EncryptionProperties_STATUS Configures how customer data is encrypted inside the Batch account. By default, accounts are encrypted using a Microsoft managed key. For additional control, a customer-managed key can be used instead.
                   properties:
-                    $propertyBag:
+                    propertyBag:
                       additionalProperties:
                         type: string
                       description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -641,7 +641,7 @@ spec:
                     keyVaultProperties:
                       description: Storage version of v1api20210101.KeyVaultProperties_STATUS KeyVault configuration when using an encryption KeySource of Microsoft.KeyVault.
                       properties:
-                        $propertyBag:
+                        propertyBag:
                           additionalProperties:
                             type: string
                           description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -655,7 +655,7 @@ spec:
                 identity:
                   description: Storage version of v1api20210101.BatchAccountIdentity_STATUS The identity of the Batch account, if configured. This is only used when the user specifies 'Microsoft.KeyVault' as their Batch account encryption configuration.
                   properties:
-                    $propertyBag:
+                    propertyBag:
                       additionalProperties:
                         type: string
                       description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -670,7 +670,7 @@ spec:
                       additionalProperties:
                         description: Storage version of v1api20210101.BatchAccountIdentity_UserAssignedIdentities_STATUS
                         properties:
-                          $propertyBag:
+                          propertyBag:
                             additionalProperties:
                               type: string
                             description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -685,7 +685,7 @@ spec:
                 keyVaultReference:
                   description: Storage version of v1api20210101.KeyVaultReference_STATUS Identifies the Azure key vault associated with a Batch account.
                   properties:
-                    $propertyBag:
+                    propertyBag:
                       additionalProperties:
                         type: string
                       description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -709,7 +709,7 @@ spec:
                   items:
                     description: Storage version of v1api20210101.PrivateEndpointConnection_STATUS Contains information about a private link resource.
                     properties:
-                      $propertyBag:
+                      propertyBag:
                         additionalProperties:
                           type: string
                         description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -1074,7 +1074,7 @@ spec:
             spec:
               description: Storage version of v1beta20210101.BatchAccount_Spec
               properties:
-                $propertyBag:
+                propertyBag:
                   additionalProperties:
                     type: string
                   description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -1082,7 +1082,7 @@ spec:
                 autoStorage:
                   description: Storage version of v1beta20210101.AutoStorageBaseProperties Deprecated version of AutoStorageBaseProperties. Use v1api20210101.AutoStorageBaseProperties instead
                   properties:
-                    $propertyBag:
+                    propertyBag:
                       additionalProperties:
                         type: string
                       description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -1116,7 +1116,7 @@ spec:
                 encryption:
                   description: Storage version of v1beta20210101.EncryptionProperties Deprecated version of EncryptionProperties. Use v1api20210101.EncryptionProperties instead
                   properties:
-                    $propertyBag:
+                    propertyBag:
                       additionalProperties:
                         type: string
                       description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -1126,7 +1126,7 @@ spec:
                     keyVaultProperties:
                       description: Storage version of v1beta20210101.KeyVaultProperties Deprecated version of KeyVaultProperties. Use v1api20210101.KeyVaultProperties instead
                       properties:
-                        $propertyBag:
+                        propertyBag:
                           additionalProperties:
                             type: string
                           description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -1138,7 +1138,7 @@ spec:
                 identity:
                   description: Storage version of v1beta20210101.BatchAccountIdentity Deprecated version of BatchAccountIdentity. Use v1api20210101.BatchAccountIdentity instead
                   properties:
-                    $propertyBag:
+                    propertyBag:
                       additionalProperties:
                         type: string
                       description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -1149,7 +1149,7 @@ spec:
                       items:
                         description: Storage version of v1beta20210101.UserAssignedIdentityDetails Deprecated version of UserAssignedIdentityDetails. Use v1api20210101.UserAssignedIdentityDetails instead
                         properties:
-                          $propertyBag:
+                          propertyBag:
                             additionalProperties:
                               type: string
                             description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -1177,7 +1177,7 @@ spec:
                 keyVaultReference:
                   description: Storage version of v1beta20210101.KeyVaultReference Deprecated version of KeyVaultReference. Use v1api20210101.KeyVaultReference instead
                   properties:
-                    $propertyBag:
+                    propertyBag:
                       additionalProperties:
                         type: string
                       description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -1231,7 +1231,7 @@ spec:
             status:
               description: Storage version of v1beta20210101.BatchAccount_STATUS Deprecated version of BatchAccount_STATUS. Use v1api20210101.BatchAccount_STATUS instead
               properties:
-                $propertyBag:
+                propertyBag:
                   additionalProperties:
                     type: string
                   description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -1243,7 +1243,7 @@ spec:
                 autoStorage:
                   description: Storage version of v1beta20210101.AutoStorageProperties_STATUS Deprecated version of AutoStorageProperties_STATUS. Use v1api20210101.AutoStorageProperties_STATUS instead
                   properties:
-                    $propertyBag:
+                    propertyBag:
                       additionalProperties:
                         type: string
                       description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -1293,7 +1293,7 @@ spec:
                   items:
                     description: Storage version of v1beta20210101.VirtualMachineFamilyCoreQuota_STATUS Deprecated version of VirtualMachineFamilyCoreQuota_STATUS. Use v1api20210101.VirtualMachineFamilyCoreQuota_STATUS instead
                     properties:
-                      $propertyBag:
+                      propertyBag:
                         additionalProperties:
                           type: string
                         description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -1309,7 +1309,7 @@ spec:
                 encryption:
                   description: Storage version of v1beta20210101.EncryptionProperties_STATUS Deprecated version of EncryptionProperties_STATUS. Use v1api20210101.EncryptionProperties_STATUS instead
                   properties:
-                    $propertyBag:
+                    propertyBag:
                       additionalProperties:
                         type: string
                       description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -1319,7 +1319,7 @@ spec:
                     keyVaultProperties:
                       description: Storage version of v1beta20210101.KeyVaultProperties_STATUS Deprecated version of KeyVaultProperties_STATUS. Use v1api20210101.KeyVaultProperties_STATUS instead
                       properties:
-                        $propertyBag:
+                        propertyBag:
                           additionalProperties:
                             type: string
                           description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -1333,7 +1333,7 @@ spec:
                 identity:
                   description: Storage version of v1beta20210101.BatchAccountIdentity_STATUS Deprecated version of BatchAccountIdentity_STATUS. Use v1api20210101.BatchAccountIdentity_STATUS instead
                   properties:
-                    $propertyBag:
+                    propertyBag:
                       additionalProperties:
                         type: string
                       description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -1348,7 +1348,7 @@ spec:
                       additionalProperties:
                         description: Storage version of v1beta20210101.BatchAccountIdentity_UserAssignedIdentities_STATUS Deprecated version of BatchAccountIdentity_UserAssignedIdentities_STATUS. Use v1api20210101.BatchAccountIdentity_UserAssignedIdentities_STATUS instead
                         properties:
-                          $propertyBag:
+                          propertyBag:
                             additionalProperties:
                               type: string
                             description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -1363,7 +1363,7 @@ spec:
                 keyVaultReference:
                   description: Storage version of v1beta20210101.KeyVaultReference_STATUS Deprecated version of KeyVaultReference_STATUS. Use v1api20210101.KeyVaultReference_STATUS instead
                   properties:
-                    $propertyBag:
+                    propertyBag:
                       additionalProperties:
                         type: string
                       description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
@@ -1387,7 +1387,7 @@ spec:
                   items:
                     description: Storage version of v1beta20210101.PrivateEndpointConnection_STATUS Deprecated version of PrivateEndpointConnection_STATUS. Use v1api20210101.PrivateEndpointConnection_STATUS instead
                     properties:
-                      $propertyBag:
+                      propertyBag:
                         additionalProperties:
                           type: string
                         description: PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage resources, allowing for full fidelity round trip conversions
